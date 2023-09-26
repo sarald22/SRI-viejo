@@ -76,17 +76,17 @@ Utilizaremos la imagen de Ubuntu (la última). Usa Visual Studio Code y Docker j
 
 ### 6. **Sal del terminal, ¿qué ocurrió con el contenedor?**
 
-    Se cerró pero no se borró
+ Se cerró pero no se borró
 
 
 ### 7. **¿Cuánta memoria en el disco duro ocupaste? ¿Hay alguna herramienta de docker para calcularlo?**
 
-    Se ocuparon pocos MB.
+Se ocuparon pocos MB.
 
-    se calcula con el comando “docker stats”
+se calcula con el comando “docker stats”
 
 
 ### 8. **¿Cuanta RAM ocupan los contenedores? Crea cuantos contenedores necesites para calcularlo.**
 
-    con ‘ubi1’ ocupé 65,14MiB
+con ‘ubi1’ ocupé 65,14MiB
 
