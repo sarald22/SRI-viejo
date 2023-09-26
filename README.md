@@ -8,7 +8,7 @@
 
 ### ______________________________
 ## Para subir cambios a Git Hub
-### git add README.md
+### git add "README.md"
 ### git commit -m "first commit"
 ### git push -u origin main
 
