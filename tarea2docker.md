@@ -84,7 +84,7 @@ Utiliza -v "$PWD"/htdocs:/usr/local/apache2/htdocs/
 
   y escribimos dentro: 
 < html>
-    <h1> hola mundo </h1>
+    < h1> hola mundo </h1>
 </html>
 
 
