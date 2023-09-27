@@ -14,6 +14,7 @@
    
   - añadimos estas líneas al archivo “docker-compose.yml”
 
+```
       services:
         asir_httpd:
           image: httpd:2.4
@@ -22,7 +23,7 @@
           volumes:
             - /home/asir2/SRI/APACHE/paginas
           container_name: asir httpd
-
+```
 
   - luego en terminal enviamos este comando, para crear el contenedor:
 
