@@ -55,6 +55,33 @@ Utiliza -v "$PWD"/htdocs:/usr/local/apache2/htdocs/
               <*h1> hola mundo </h1>
 
           </html>
-          
+
 
   En la barra del navegador ponemos “localhost:8000” y debería aparecernos el texto deseado.
+
+
+
+6. Crea un contenedor 'asir_web1' que use este mismo directorio para 'htdocs' y el puerto 8000
+
+  Creamos un documento 'docker-compose.yml' y añadimos las siguientes lineas:
+
+        services:
+
+          asir_web1:
+
+            image: httpd:2.4
+
+            ports:
+
+              - "8000:80"
+
+            volumes:
+
+              - /home/asir2/SRI/APACHE/paginas
+
+            container_name: asir_web1
+
+
+
+
+
