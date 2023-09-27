@@ -68,18 +68,23 @@ Utiliza -v "$PWD"/htdocs:/usr/local/apache2/htdocs/
         services:
           asir_web1:
             image: httpd:2.4
-
             ports:
-
               - "8000:80"
-
             volumes:
-
               - /home/asir2/SRI/APACHE/paginas
-
             container_name: asir_web1
 
 
 
+
+7. Utiliza Code para hacer un hola mundo en html
+  Ponemos en terminal el comando:
+
+        nano tarea1.html
+
+  y escribimos dentro: 
+< html>
+    <h1> hola mundo </h1>
+</html>
 
 
