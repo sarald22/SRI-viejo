@@ -66,9 +66,7 @@ Utiliza -v "$PWD"/htdocs:/usr/local/apache2/htdocs/
   Creamos un documento 'docker-compose.yml' y añadimos las siguientes lineas:
 
         services:
-
           asir_web1:
-
             image: httpd:2.4
 
             ports:
