@@ -3,7 +3,7 @@
 ## Tarea: Docker - Trabajando con volúmenes
 
 
-1. **Descarga la imagen 'httpd' y comprueba que está en tu equipo.**
+1. `#0969DA` **Descarga la imagen 'httpd' y comprueba que está en tu equipo.** `#0969DA`
 
   hecho 
 
