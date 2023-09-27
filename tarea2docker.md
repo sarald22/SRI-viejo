@@ -81,9 +81,10 @@ Utiliza -v "$PWD"/htdocs:/usr/local/apache2/htdocs/
         nano tarea1.html
 
   y escribimos dentro: 
-        < html>
-            < h1> hola mundo </h1>
-        </html>
+          < html>
+
+              < h1> hola mundo < /h1>
+          < /html>
 
 
 
