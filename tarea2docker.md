@@ -49,8 +49,12 @@ Utiliza -v "$PWD"/htdocs:/usr/local/apache2/htdocs/
 5. Realiza un 'hola mundo' en html y comprueba que accedes desde el navegador.
 
   Abrimos un archivo .html donde tengamos el archivo de docker-compose y le añadimos las líneas:
+
           < html>
+
               <*h1> hola mundo </h1>
+
           </html>
+          
 
   En la barra del navegador ponemos “localhost:8000” y debería aparecernos el texto deseado.
