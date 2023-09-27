@@ -51,9 +51,7 @@ Utiliza -v "$PWD"/htdocs:/usr/local/apache2/htdocs/
   Abrimos un archivo .html donde tengamos el archivo de docker-compose y le añadimos las líneas:
 
           < html>
-
               <*h1> hola mundo </h1>
-
           </html>
 
 
@@ -83,8 +81,10 @@ Utiliza -v "$PWD"/htdocs:/usr/local/apache2/htdocs/
         nano tarea1.html
 
   y escribimos dentro: 
-< html>
-    < h1> hola mundo </h1>
-</html>
+        < html>
+            < h1> hola mundo </h1>
+        </html>
+
+
 
 
