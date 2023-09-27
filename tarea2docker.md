@@ -83,7 +83,6 @@ Utiliza -v "$PWD"/htdocs:/usr/local/apache2/htdocs/
   y escribimos dentro: 
 
           < html>
-
               < h1> hola mundo </h1>
           </html>
 
@@ -91,6 +90,8 @@ Utiliza -v "$PWD"/htdocs:/usr/local/apache2/htdocs/
 
 
 8. Crea otro contenedor 'asir_web2' con el mismo directorio y a otro puerto, por ejemplo 9080.
+
+  Añadimos al documento estas lineas:
 
         services:
           asir_web2:
@@ -100,5 +101,15 @@ Utiliza -v "$PWD"/htdocs:/usr/local/apache2/htdocs/
             volumes:
               - /home/asir2/SRI/APACHE/paginas
             container_name: asir_web2
+
+
+
+
+9. Comprueba que los dos servidores 'sirven' la misma página, es decir, cuando consultamos en el navegador:
+  http://localhost:9080 
+
+  http://localhost:8000
+
+sirven
 
 
