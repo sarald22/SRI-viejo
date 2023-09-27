@@ -40,9 +40,17 @@
 4.  Utiliza bind mount para que el directorio del apache2 'htdocs' este montado un directorio que tu elijas.
 Utiliza -v "$PWD"/htdocs:/usr/local/apache2/htdocs/
 
-Debemos poner el siguiente comando con las rutas *"$PWD"/htdocs*   y   */usr/local/apache2/htdocs/*
+  Debemos poner el siguiente comando con las rutas *"$PWD"/htdocs*   y   */usr/local/apache2/htdocs/*
 
       docker run -dit --name my-apache-app -p 8080:80 -v -v "$PWD"/htdocs:/usr/local/apache2/htdocs/ httpd:2.4
 
 
 
+5. Realiza un 'hola mundo' en html y comprueba que accedes desde el navegador.
+
+  Abrimos un archivo .html donde tengamos el archivo de docker-compose y le añadimos las líneas:
+          <html>
+              <h1> hola mundo </h1>
+          </html>
+
+  En la barra del navegador ponemos “localhost:8000” y debería aparecernos el texto deseado.
