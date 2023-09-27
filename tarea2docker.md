@@ -81,11 +81,24 @@ Utiliza -v "$PWD"/htdocs:/usr/local/apache2/htdocs/
         nano tarea1.html
 
   y escribimos dentro: 
+
           < html>
 
-              < h1> hola mundo < /h1>
-          < /html>
+              < h1> hola mundo </h1>
+          </html>
 
 
+
+
+8. Crea otro contenedor 'asir_web2' con el mismo directorio y a otro puerto, por ejemplo 9080.
+
+        services:
+          asir_web2:
+            image: httpd:2.4
+            ports:
+              - "9080:80"
+            volumes:
+              - /home/asir2/SRI/APACHE/paginas
+            container_name: asir_web2
 
 
