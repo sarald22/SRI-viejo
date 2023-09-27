@@ -10,6 +10,6 @@ Sigue los apuntes de Docker para realizar la siguiente práctica:
 Utilizaremos la imagen de Apache. Usa Visual Studio Code y Docker junto con esta imagen para seguir las siguientes instrucciones:
 
 
-### Descarga la imagen 'httpd' y comprueba que está en tu equipo.
+1. Descarga la imagen 'httpd' y comprueba que está en tu equipo.
 
 hecho
