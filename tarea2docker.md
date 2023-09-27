@@ -108,8 +108,13 @@ Utiliza -v "$PWD"/htdocs:/usr/local/apache2/htdocs/
 9. Comprueba que los dos servidores 'sirven' la misma página, es decir, cuando consultamos en el navegador:
 
   http://localhost:9080 
+
   http://localhost:8000
 
 sirven
 
 
+
+10. Tienen que salir la misma página web
+
+  si, sale
