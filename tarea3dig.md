@@ -4,7 +4,7 @@ Tarea: interactuando con 'dig'
 1. Realiza una consulta “dig danielcastelao.org” e identifica el significado de cada parte
 de la respuesta (IN, CNAME, A, QUERY SECTION, ANSWER SECTION, AUTHORITY SECTION,etc)
 
-<image src="/ejercicios/ej1.jpeg" alt="ejercicio 1">
+<image src="/ej1.jpeg" alt=" ejercicio 1">
 
 IN →900
 CNAME →danielcastelao.ORG
