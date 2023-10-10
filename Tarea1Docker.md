@@ -90,3 +90,4 @@ se calcula con el comando “docker stats”
 
 con ‘ubi1’ ocupé 65,14MiB
 
+     
