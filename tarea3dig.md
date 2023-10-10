@@ -4,7 +4,7 @@ Tarea: interactuando con 'dig'
 1. Realiza una consulta “dig danielcastelao.org” e identifica el significado de cada parte
 de la respuesta (IN, CNAME, A, QUERY SECTION, ANSWER SECTION, AUTHORITY SECTION,etc)
 
-<image src="/ej1.jpeg" alt=" ejercicio 1">
+<image src="/ejercicios/ej1.jpeg" alt=" ejercicio 1">
 
 IN →900
 CNAME →danielcastelao.ORG
@@ -17,7 +17,8 @@ AUTHORITY SECTION → 0
 2. Realiza las consultas de nombres: moodle.danielcastelao.org, www.danielcastelao.org
 ¿Diferencias?
 
-
+<image src="/ejercicios/ej2.jpeg" alt=" ejercicio 2">
+<image src="/ejercicios/ej2_2.jpeg" alt=" ejercicio 2">
 
 
 
@@ -25,6 +26,9 @@ AUTHORITY SECTION → 0
 3. Con relación al dominio www.danielcastelao.org, averigua el nombre y dirección IP de
 los servidores de DNS autoritativos de dicho dominio. ¿Por qué normalmente suelen ser 2
 servidores autoritativos?
+
+<image src="/ejercicios/ej3.jpeg" alt=" ejercicio 3">
+
 
 
 4. Realice las consultas de nombres inversas: 130.206.164.68 y de otras direcciones IP que
