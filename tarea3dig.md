@@ -3,8 +3,8 @@ Tarea: interactuando con 'dig'
 
 1. Realiza una consulta “dig danielcastelao.org” e identifica el significado de cada parte
 de la respuesta (IN, CNAME, A, QUERY SECTION, ANSWER SECTION, AUTHORITY SECTION,etc)
-
-![imagen1] (/home/asir2/SRI/ejercicios/ej1.jpeg)
+ 
+![imagen1] (/SRI/ejercicios/ej1.jpeg)
 
 
 IN →900
